@@ -1,0 +1,94 @@
+.card{
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.card2{
+    width: 175px;
+    height: 275px;
+    border-radius: 10px;
+}
+
+.cardunflip{
+    height: 500px;
+    border-radius: 10px;
+    margin: -20px;
+    margin-left: -295px;
+    margin-top:-90px;
+    z-index: 1;
+    position: absolute;
+}
+
+.cardunflip2{
+    height: 500px;
+    border-radius: 10px;
+    margin: -20px;
+    margin-left: -475px;
+    margin-top:-100px;
+    z-index: 1;
+    position: absolute;
+}
+
+.button{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #CECAC1;
+    outline-color: #C0A66D;
+    outline-style: solid;
+    outline-width: thick;
+}
+
+#close{
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    background-color: black;
+    position: absolute;
+}
+
+#row{
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#final{
+    font-family: "Fondamento", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    margin-top: -800px;
+    margin-bottom: auto;
+    margin-left: 1050px;
+    margin-right: auto;
+}
+
+#name1{
+    display: flex;
+}
+
+#name2{
+    display: flex;
+}
+
+#name3{
+    display: flex;
+}
+
+#name4{
+    display: flex;
+}
